@@ -1,5 +1,8 @@
 module Solutions
 
-# Write your package code here.
+include("sudoku.jl")
+include("newton_raphson.jl")
+
+
 
 end

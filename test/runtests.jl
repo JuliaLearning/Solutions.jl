@@ -1,6 +1,2 @@
-using Solutions
-using Test
-
-@testset "Solutions.jl" begin
-    # Write your tests here.
-end
+include("sudoku.jl")
+include("newton_raphson.jl")
