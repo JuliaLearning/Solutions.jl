@@ -25,5 +25,7 @@ function test_newton_raphson()
     x0 = [1.0, 1.0, 1.0]
     ϵ = 0.001
     x = newton_raphson(f, x0, ϵ)
+    @info "Newton-Raphson iterations:"
+    @info x
     @test isapprox(norm(f(x[end])), 0; atol=ϵ)
 end
